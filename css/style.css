@@ -852,7 +852,7 @@
   }
   .popup__hidden {
     position: fixed;
-    top: 200px;
+    top: 0px;
     width: 100vw;
     height: 100vh;
     display: none;
@@ -1381,7 +1381,7 @@
   padding: 30px;
   box-sizing: border-box;
 }
-.select-question, .field-group-feedback, .button__row, .field-textarea-feedback {
+.select-question, .form-group-feedback, .field-label-feedback, .button__row, .field-textarea-feedback {
   width: 270px;
 }
 }
