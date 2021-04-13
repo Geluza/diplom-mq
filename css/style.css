@@ -220,14 +220,8 @@
     box-sizing: border-box;
   }
   
-  
-  .articles {
-    width: 780px;
-  }
-  
   .card-article {
     display: flex;
-    width: 780px;
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -1237,7 +1231,7 @@
   display: none;
 }
 .main-aside-noemi-wrapper {
-  flex-direction: column;
+  display: block;
   max-width: 360px;
   padding: 0px 15px;
   margin: auto;
@@ -1245,13 +1239,13 @@
 }
 
 .article {
+  width: 330px;
   padding: 15px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .article-content {
-  width: 330px;
   position: relative;
 }
 .article-content::after {
@@ -1267,10 +1261,6 @@
     padding-bottom: 20px;
     text-align: left;
     box-sizing: border-box;
-}
-
-.articles {
-  min-width: 330px;
 }
 
  .article-image {
@@ -1293,10 +1283,9 @@
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  min-width: 330px;
+  display: block;
+  margin: 80px auto 0px auto;
+  width: 330px; 
 }
 
 .search-field {
@@ -1348,7 +1337,6 @@
 .shop-item {
   position: relative;
   z-index: 1;
-  width: 280px;
 }
 
 .shop-image {
@@ -1371,7 +1359,7 @@
   outline-offset: 20px;
 }
 .footer-wrapper {
- max-width: 360px;
+ width: 360px;
  padding: 0px 15px;
  box-sizing: border-box;
 }
